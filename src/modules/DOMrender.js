@@ -79,7 +79,6 @@ const renderCard = (data, units) => {
 	).innerHTML = `<h3 class="tempClass">${
 		Math.round(data.main.temp * 10) / 10
 	}º${units === "metric" ? "C" : "F"}</h3>`;
-	console.log(units);
 	document.querySelector(
 		`#feels${data.id}`
 	).innerHTML = `<h3 class="feelText">${
