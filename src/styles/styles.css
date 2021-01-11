@@ -11,6 +11,7 @@ body {
 	padding: 0;
 	display: flex;
 	flex-direction: column;
+	background-color: #2dbe8e;
 }
 
 h1 {
@@ -70,7 +71,7 @@ label {
 	position: relative;
 	background-color: #2dbe8e;
 	width: 100%;
-	height: 65vh;
+	height: 100%;
 	top: 0;
 	z-index: -1;
 }
