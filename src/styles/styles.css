@@ -1,3 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&family=Yusei+Magic&display=swap");
+
+:root {
+	font-family: "Special Elite", cursive;
+	font-size: 10px;
+}
+
 body {
-	background-color: red;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-family: "Yusei Magic", sans-serif;
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-family: "Yusei Magic", sans-serif;
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: "Yusei Magic", sans-serif;
+	font-size: 1.5rem;
+}
+
+label {
+	font-family: "Yusei Magic", sans-serif;
+	font-size: 1.5rem;
+}
+
+#title {
+	padding-top: 10rem;
+	color: ;
+	font-family: "Special Elite", cursive;
+	font-size: 15rem;
+	text-align: center;
+}
+
+#background {
+	background-image: linear-gradient(135deg, #228be6 5%, #3bc9db 95%);
+	width: 100vw;
+	height: 100vh;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: -1;
+}
+#backgroundTop {
+	height: 30vh;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#backgroundMiddle {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -2;
+	height: 5vh;
+}
+
+#backgroundBottom {
+	position: relative;
+	background-color: #2dbe8e;
+	width: 100%;
+	height: 65vh;
+	top: 0;
+	z-index: -1;
+}
+
+#canvas {
+	align-self: center;
+	height: 98vh;
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+#weatherBoard {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+	gap: 1rem;
+	padding: 10rem;
+}
+
+#optionsMenu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.cityCard {
+	display: flex;
+	width: 18rem;
+	flex-direction: column;
+	align-content: center;
+	border: 0.1rem solid black;
+	border-radius: 1rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem black;
+	padding: 0.5rem;
+	background-image: linear-gradient(135deg, #ffd43b 0%, #d7a800 100%);
+}
+
+.cardHeader {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	text-align: right;
+}
+
+.weatherIcon {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: auto;
+}
+
+.closeCard {
+	position: relative;
+	font-size: 1.5rem;
+	top: 0.1rem;
+	left: 17rem;
+}
+
+.weatherDescription {
+	text-align: center;
+}
+
+.cardFooter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.cityFeels {
+	margin-left: auto;
+}
+
+#options {
+	padding: 1rem;
+	margin-top: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
