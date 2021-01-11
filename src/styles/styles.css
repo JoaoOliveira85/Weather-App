@@ -2,7 +2,7 @@
 
 :root {
 	font-family: "Special Elite", cursive;
-	font-size: 6px;
+	font-size: 5px;
 }
 
 body {
@@ -79,7 +79,7 @@ label {
 #canvas {
 	align-self: center;
 	height: 98vh;
-	width: 60vw;
+	width: 75vw;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
